@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.post("/aiva", async (req, res) => {
+app.post("/ask", async (req, res) => {
   const messages = req.body.messages;
 
   try {
